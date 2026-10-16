@@ -84,3 +84,9 @@ stop.bat    REM 포트 5185 프로세스 + "MeetingNote" 창 제목의 electron.
 | `memory-bank/knowledge/trouble-shooting.md` | 버그 해결 기록 |
 
 **세션 시작 시**: `active-context.md` → `STATE.md` 순으로 읽고 현재 상태를 파악할 것.
+
+<!-- BEGIN LUNA MANAGED POLICY -->
+## Luna shared engineering policy (revision 2.1)
+
+For material engineering work, read `docs/luna/CORE_ENGINEERING_PROTOCOL_V2.md`. It is canonical for Luna's shared workflow, verification, review independence, and readiness; older inherited Luna summaries must not redefine that contract. Preserve this project's technology choices, security boundaries, required checks, and stricter review/approval rules. This update does not authorize new scope. Required verification must pass and material implementation needs independent Code Review before merge-ready. Missing/failing/pending required checks or independent review mean review-ready; disclosure is not a pass. A same-session role switch is self-review. Continue other authorized work.
+<!-- END LUNA MANAGED POLICY -->
